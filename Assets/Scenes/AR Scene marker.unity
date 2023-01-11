@@ -1007,7 +1007,7 @@ GameObject:
   - component: {fileID: 1232169386}
   - component: {fileID: 1232169385}
   m_Layer: 0
-  m_Name: VisualScripts2
+  m_Name: VisualScripts
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
