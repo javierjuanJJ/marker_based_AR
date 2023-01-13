@@ -1127,11 +1127,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 865452357312167728, guid: 04f7a9876908a5f41adfac2b9668eaab,
-        type: 3}
-      propertyPath: rolloffMode
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2911597060502401786, guid: 04f7a9876908a5f41adfac2b9668eaab,
         type: 3}
       propertyPath: m_RootOrder
