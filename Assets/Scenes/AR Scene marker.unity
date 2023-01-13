@@ -900,9 +900,7 @@ PrefabInstance:
     - target: {fileID: 3118131162248045488, guid: 398ee1c84048d68479a4ca31600e05d2,
         type: 3}
       propertyPath: m_text
-      value: 'Stop
-
-'
+      value: Audio
       objectReference: {fileID: 0}
     - target: {fileID: 3532599376157485563, guid: 398ee1c84048d68479a4ca31600e05d2,
         type: 3}
@@ -1002,7 +1000,7 @@ PrefabInstance:
     - target: {fileID: 4846490202263123579, guid: 398ee1c84048d68479a4ca31600e05d2,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6677578565661898919, guid: 398ee1c84048d68479a4ca31600e05d2,
         type: 3}
