@@ -8,9 +8,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Settings/Project Configuration/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/AR Scene marker.unity
     guid: 6f8f26c45e19c0a42856044735da247f
+  - enabled: 1
+    path: Assets/Scenes/AR Scene Portal.unity
+    guid: 3ec868733200ed54c9d64c3b23364e45
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 6ee72d15cf39dd748a13eac57397b9af,
       type: 2}
