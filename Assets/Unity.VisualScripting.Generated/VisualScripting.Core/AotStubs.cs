@@ -1020,7 +1020,11 @@ namespace Unity.VisualScripting.Generated.Aot
 	// --------------- Asset Stubs
 	// UnityEngine.Component.GetComponentInChildren
 	// UnityEngine.GameObject.FindWithTag
+	// UnityEngine.Input.touchCount
+	// UnityEngine.Transform.position
 	// UnityEngine.GameObject.SetActive
+	// UnityEngine.Touch.position
+	// UnityEngine.Input.GetTouch
 	// UnityEngine.GameObject.activeSelf
 	// UnityEngine.Camera.main
 	// UnityEngine.Transform.LookAt
@@ -1029,7 +1033,6 @@ namespace Unity.VisualScripting.Generated.Aot
 	// UnityEngine.Transform.tag
 	// UnityEngine.Transform.name
 	// UnityEngine.Transform.hideFlags
-	// UnityEngine.Transform.position
 	// UnityEngine.Transform.localPosition
 	// UnityEngine.Transform.eulerAngles
 	// UnityEngine.Transform.localEulerAngles
@@ -1049,6 +1052,8 @@ namespace Unity.VisualScripting.Generated.Aot
 	// UnityEngine.Transform.hierarchyCapacity
 	// UnityEngine.Transform.hierarchyCount
 	// UnityEngine.Vector3.left
+	// UnityEngine.UI.Text.text
+	// UnityEngine.Vector2.ToString
 	// UnityEngine.Transform.Rotate
 	// UnityEngine.Vector3.y
 	// UnityEngine.Vector3.x
@@ -12833,6 +12838,27 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
+		// UnityEngine.Input.touchCount
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_Input_touchCount()
+		{
+			int accessor = global::UnityEngine.Input.touchCount;
+			global::Unity.VisualScripting.StaticPropertyAccessor<int> optimized = new global::Unity.VisualScripting.StaticPropertyAccessor<int>(default(global::System.Reflection.PropertyInfo));
+			optimized.GetValue(null);
+		}
+		
+		// UnityEngine.Transform.position
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_Transform_position()
+		{
+			global::UnityEngine.Transform target = default(global::UnityEngine.Transform);
+			global::UnityEngine.Vector3 accessor = target.position;
+			target.position = default(global::UnityEngine.Vector3);
+			global::Unity.VisualScripting.InstancePropertyAccessor<UnityEngine.Transform, UnityEngine.Vector3> optimized = new global::Unity.VisualScripting.InstancePropertyAccessor<UnityEngine.Transform, UnityEngine.Vector3>(default(global::System.Reflection.PropertyInfo));
+			optimized.GetValue(default(global::UnityEngine.Transform));
+			optimized.SetValue(default(global::UnityEngine.Transform), default(global::UnityEngine.Vector3));
+		}
+		
 		// UnityEngine.GameObject.SetActive
 		[global::UnityEngine.Scripting.PreserveAttribute()]
 		public static void UnityEngine_GameObject_SetActive()
@@ -12842,6 +12868,29 @@ namespace Unity.VisualScripting.Generated.Aot
 			target.SetActive(arg0);
 			global::Unity.VisualScripting.InstanceActionInvoker<UnityEngine.GameObject, bool> optimized = new global::Unity.VisualScripting.InstanceActionInvoker<UnityEngine.GameObject, bool>(default(global::System.Reflection.MethodInfo));
 			optimized.Invoke(default(global::UnityEngine.GameObject), arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.Touch.position
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_Touch_position()
+		{
+			global::UnityEngine.Touch target = default(global::UnityEngine.Touch);
+			global::UnityEngine.Vector2 accessor = target.position;
+			target.position = default(global::UnityEngine.Vector2);
+			global::Unity.VisualScripting.ReflectionPropertyAccessor optimized = new global::Unity.VisualScripting.ReflectionPropertyAccessor(default(global::System.Reflection.PropertyInfo));
+			optimized.GetValue(default(global::UnityEngine.Touch));
+			optimized.SetValue(default(global::UnityEngine.Touch), default(global::UnityEngine.Vector2));
+		}
+		
+		// UnityEngine.Input.GetTouch
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_Input_GetTouch()
+		{
+			int arg0 = default(int);
+			global::UnityEngine.Input.GetTouch(arg0);
+			global::Unity.VisualScripting.StaticFunctionInvoker<int, UnityEngine.Touch> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<int, UnityEngine.Touch>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
 			optimized.Invoke(default(object[]));
 		}
 		
@@ -12931,18 +12980,6 @@ namespace Unity.VisualScripting.Generated.Aot
 			global::Unity.VisualScripting.InstancePropertyAccessor<UnityEngine.Object, UnityEngine.HideFlags> optimized = new global::Unity.VisualScripting.InstancePropertyAccessor<UnityEngine.Object, UnityEngine.HideFlags>(default(global::System.Reflection.PropertyInfo));
 			optimized.GetValue(default(global::UnityEngine.Object));
 			optimized.SetValue(default(global::UnityEngine.Object), default(global::UnityEngine.HideFlags));
-		}
-		
-		// UnityEngine.Transform.position
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_Transform_position()
-		{
-			global::UnityEngine.Transform target = default(global::UnityEngine.Transform);
-			global::UnityEngine.Vector3 accessor = target.position;
-			target.position = default(global::UnityEngine.Vector3);
-			global::Unity.VisualScripting.InstancePropertyAccessor<UnityEngine.Transform, UnityEngine.Vector3> optimized = new global::Unity.VisualScripting.InstancePropertyAccessor<UnityEngine.Transform, UnityEngine.Vector3>(default(global::System.Reflection.PropertyInfo));
-			optimized.GetValue(default(global::UnityEngine.Transform));
-			optimized.SetValue(default(global::UnityEngine.Transform), default(global::UnityEngine.Vector3));
 		}
 		
 		// UnityEngine.Transform.localPosition
@@ -13156,6 +13193,29 @@ namespace Unity.VisualScripting.Generated.Aot
 			global::UnityEngine.Vector3 accessor = global::UnityEngine.Vector3.left;
 			global::Unity.VisualScripting.StaticPropertyAccessor<UnityEngine.Vector3> optimized = new global::Unity.VisualScripting.StaticPropertyAccessor<UnityEngine.Vector3>(default(global::System.Reflection.PropertyInfo));
 			optimized.GetValue(null);
+		}
+		
+		// UnityEngine.UI.Text.text
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_UI_Text_text()
+		{
+			global::UnityEngine.UI.Text target = default(global::UnityEngine.UI.Text);
+			string accessor = target.text;
+			target.text = default(string);
+			global::Unity.VisualScripting.InstancePropertyAccessor<UnityEngine.UI.Text, string> optimized = new global::Unity.VisualScripting.InstancePropertyAccessor<UnityEngine.UI.Text, string>(default(global::System.Reflection.PropertyInfo));
+			optimized.GetValue(default(global::UnityEngine.UI.Text));
+			optimized.SetValue(default(global::UnityEngine.UI.Text), default(string));
+		}
+		
+		// UnityEngine.Vector2.ToString
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_Vector2_ToString()
+		{
+			global::UnityEngine.Vector2 target = default(global::UnityEngine.Vector2);
+			target.ToString();
+			global::Unity.VisualScripting.ReflectionInvoker optimized = new global::Unity.VisualScripting.ReflectionInvoker(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(default(global::UnityEngine.Vector2));
+			optimized.Invoke(default(object[]));
 		}
 		
 		// UnityEngine.Transform.Rotate
