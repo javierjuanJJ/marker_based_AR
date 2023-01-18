@@ -657,7 +657,7 @@ MonoBehaviour:
     - {fileID: 191778488}
     - {fileID: 1492278756}
     - {fileID: 1125729854}
-    - {fileID: 5427065031122323499, guid: 2008108795e01ad47b5e6716acd346b2, type: 3}
+    - {fileID: 8058794327697516652, guid: ba82c2ad484f24daab641702ff8a6d10, type: 3}
 --- !u!4 &500579369
 Transform:
   m_ObjectHideFlags: 0
@@ -863,7 +863,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PlanePrefab: {fileID: 5087571866576590744, guid: e335d929df09eb140be232572b41b2eb,
     type: 3}
-  m_DetectionMode: 1
+  m_DetectionMode: 2
 --- !u!114 &1125729854
 MonoBehaviour:
   m_ObjectHideFlags: 0
