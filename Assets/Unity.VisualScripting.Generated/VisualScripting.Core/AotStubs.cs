@@ -1053,7 +1053,8 @@ namespace Unity.VisualScripting.Generated.Aot
 	// UnityEngine.Transform.hierarchyCount
 	// UnityEngine.Vector3.left
 	// UnityEngine.UI.Text.text
-	// UnityEngine.Vector2.ToString
+	// bool.ToString
+	// string.Concat
 	// UnityEngine.Transform.Rotate
 	// UnityEngine.Vector3.y
 	// UnityEngine.Vector3.x
@@ -13207,14 +13208,26 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.SetValue(default(global::UnityEngine.UI.Text), default(string));
 		}
 		
-		// UnityEngine.Vector2.ToString
+		// bool.ToString
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_Vector2_ToString()
+		public static void bool_ToString()
 		{
-			global::UnityEngine.Vector2 target = default(global::UnityEngine.Vector2);
+			bool target = default(bool);
 			target.ToString();
 			global::Unity.VisualScripting.ReflectionInvoker optimized = new global::Unity.VisualScripting.ReflectionInvoker(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(default(global::UnityEngine.Vector2));
+			optimized.Invoke(default(bool));
+			optimized.Invoke(default(object[]));
+		}
+		
+		// string.Concat
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void string_Concat()
+		{
+			object arg0 = default(object);
+			object arg1 = default(object);
+			string.Concat(arg0, arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<object, object, string> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<object, object, string>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
 			optimized.Invoke(default(object[]));
 		}
 		
