@@ -713,6 +713,75 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: c9c17568d1ba9e04db2cf56fc7e25ee9, type: 2}
+--- !u!1001 &669364315
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3549455950380311451, guid: c466359b05d044de7be0d3b5e7dca26f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3549455950380311451, guid: c466359b05d044de7be0d3b5e7dca26f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.788
+      objectReference: {fileID: 0}
+    - target: {fileID: 3549455950380311451, guid: c466359b05d044de7be0d3b5e7dca26f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 3549455950380311451, guid: c466359b05d044de7be0d3b5e7dca26f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 3549455950380311451, guid: c466359b05d044de7be0d3b5e7dca26f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3549455950380311451, guid: c466359b05d044de7be0d3b5e7dca26f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3549455950380311451, guid: c466359b05d044de7be0d3b5e7dca26f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3549455950380311451, guid: c466359b05d044de7be0d3b5e7dca26f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3549455950380311451, guid: c466359b05d044de7be0d3b5e7dca26f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3549455950380311451, guid: c466359b05d044de7be0d3b5e7dca26f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3549455950380311451, guid: c466359b05d044de7be0d3b5e7dca26f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6685327278373175583, guid: c466359b05d044de7be0d3b5e7dca26f,
+        type: 3}
+      propertyPath: m_Name
+      value: Unoptimized Particle System
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c466359b05d044de7be0d3b5e7dca26f, type: 3}
 --- !u!1001 &917318948
 PrefabInstance:
   m_ObjectHideFlags: 0
